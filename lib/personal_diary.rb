@@ -9,6 +9,8 @@ def make_snippet(string)
     end
 end
 
+private
+
 def split_words(string)
     string.split(' ')
 end

@@ -36,3 +36,12 @@ describe '#make_snippet' do
         end
     end
 end
+
+describe '#word_count' do
+     context 'When given a string, it will count how many words are in that string' do
+        it ' should return a size of eight words for a string containing eight words' do
+            result = 'one two three four five six seven eight'.split(' ')
+            expect(send(:word_count, result)).to eq(8)
+        end
+    end
+end
