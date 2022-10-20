@@ -8,10 +8,10 @@ describe '#make_snippet' do
         end
     end
 
-    # context 'given a four word string' do
-    #     it 'should return the first four words' do
-    #         result = 'one two three four'
-    #         expect(make_snippet('one two three four')).to eq('one two three four')
-    #     end
-    # end
+    context 'given a four word string' do
+        it 'should return the first four words' do
+            result = 'one two three four'
+            expect(make_snippet('one two three four')).to eq('one two three four')
+        end
+    end
 end
