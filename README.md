@@ -1,4 +1,4 @@
-# Project Title: Make_Snippet
+# Project Title: Personal_diary
 
 ## Motivation: 
 In this project I will build a personal diary system. I will start by writing a couple of methods that will be useful for other similar projects.<br />
@@ -31,8 +31,8 @@ gem install rubocop<br />
 
 ## How to run programme:
 On CML type:<br />
-git clone https://github.com/ElliottZaki/Make_Snippet.git <br />
-cd 2i_assessment_numbers_list <br />
+git clone https://github.com/ElliottZaki/Personal_diary.git <br />
+cd personal_diary<br />
 
 ## How to run tests:
 On CML type:<br />
